@@ -6,7 +6,6 @@ var babelrc = fs.readFileSync('./.babelrc');
 var config;
 var parseData
 try {
-  console.log('hiihihihihihihhihih', decoder.write(babelrc))
   parseData = decoder.write(babelrc);
   config = JSON.parse(parseData);
 } catch (err) {

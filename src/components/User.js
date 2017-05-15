@@ -2,7 +2,6 @@ import React, { PropTypes, Component } from 'react'
 
 export default class User extends Component {
   onChangeName(e){
-    console.log(e.target)
     this.props.changeName(e.target.value)
   }
   render() {
