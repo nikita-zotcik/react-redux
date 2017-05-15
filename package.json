@@ -1,12 +1,12 @@
 {
   "name": "redux-ru-tutorial",
   "version": "1.0.0",
-  "description": "Redux RU tutorial",
+  "description": "Redux + Route",
   "main": "index.js",
   "scripts": {
     "start": "node bin/server.js"
   },
-  "author": "Maxim Patsianskiy",
+  "author": "Nikita Zotsik",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^7.1.0",
